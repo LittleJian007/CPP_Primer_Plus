@@ -1,12 +1,20 @@
-
 #include <iostream>
-using namespace std;
 int main()
 {
+    using namespace std;
     int *pt = new int;
-    double *pd = new double;
-    *pt = 1000;
-    *pd = 1002.02;
-    cout << *pd << *pt << endl;
+    *pt = 12;
+
+    cout << "pt: " << pt <<endl;
+    cout << "pt: " << pt[0] << endl;
+
+    cout << "*pt: " << *pt <<endl;
+    cout << "pt adress: " << &pt <<endl;
+
+    cout << "size of pt: " << sizeof(pt) << endl;
+    cout << "size of *pt: " << sizeof(*pt) << endl;
+
+    delete pt;
+    system("pause");
     return 0;
 }
