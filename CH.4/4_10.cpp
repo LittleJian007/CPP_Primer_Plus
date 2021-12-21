@@ -19,7 +19,7 @@ int main()
     pa[2] = 3;
 
     cout << *pa << ", " << *(pa+1) << endl;             //通过指针访问指针数组中的内容
-    delete [] pa;
+    delete [] pa;   
     // system ("pause");
     return 0;
 }
