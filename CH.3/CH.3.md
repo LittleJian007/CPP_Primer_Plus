@@ -12,18 +12,18 @@ C++类型：包括基本类型、复合类型
  + 字符长度限制，c++中不限制，但有些平台限制
 
 ### 整型    
-整型：short、int、long、long long、char
+整型：`short`、`int`、`long`、`long long`、`char`
 
 sizeof运算符
-+ 对类型名（如int）使用sizeof运算符，应在名称放入括号内   
++ 对类型名（如int）使用`sizeof`运算符，应在名称放入括号内   
 + 对变量（如n_int）使用四早饭运算符，括号为可选的
 ```cpp
     cout << "short is " << sizeof(short) << " bytes." << endl;
     cout << "int is " << sizeof n_long << " bytes." << endl;
 ```
-头文件limits
-+ 头文件limits定义了符号常量来表示类型的限制。      
-    如  CHAR_BIT/INT_MAX/SHORT_MIN      
+头文件`limits`
++ 头文件`limits`定义了符号常量来表示类型的限制。      
+    如  `CHAR_BIT`/`INT_MAX`/`SHORT_MIN`     
 
 初始化
 + 将参数的赋值和声明合并到一起
