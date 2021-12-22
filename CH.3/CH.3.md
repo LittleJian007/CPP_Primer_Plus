@@ -16,7 +16,7 @@ C++类型：包括基本类型、复合类型
 
 sizeof运算符
 + 对类型名（如int）使用`sizeof`运算符，应在名称放入括号内   
-+ 对变量（如n_int）使用四早饭运算符，括号为可选的
++ 对变量（如n_int）使用`sizeof`运算符，括号为可选的
 ```cpp
     cout << "short is " << sizeof(short) << " bytes." << endl;
     cout << "int is " << sizeof n_long << " bytes." << endl;
@@ -43,6 +43,6 @@ int k{};
 类型精度提升
 ```cpp
 cout << int (12.4) << endl;
-cout << (int)12.4 << endl;
-auto a = 12.5f/6;
+cout << (int)12.4 << endl;      //浮点型需要转换为整型
+auto a = 12.5f/6;               //精度提升
 ```

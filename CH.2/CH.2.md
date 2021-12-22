@@ -43,8 +43,8 @@ carrots = 10;   //赋值语句，“="是赋值运算符。
     函数体
 }
 ```cpp
-int a = sqrt(4.5);
-int  sum (int i, int j, int k)
+int a = sqrt(4.5);                      //内置函数库math
+int  sum (int i, int j, int k)          //自定义函数
 {
     return i+j+k;
 }
