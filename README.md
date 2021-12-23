@@ -1,8 +1,19 @@
- Part I: The Basics
- 
+ # C++ primer Plus
+    
   - [Chapter 2. 开始学习C++](CH.2/CH.2.md)
   - [Chapter 3. 数据处理](CH.3/CH.3.md)
   - [Chapter 4. 复合类型](CH.4/CH.4.md)
   - [Chapter 5. 循环和关系表达式](CH.5/CH.5.md)
-  - [Chapter 6. xxxxxx](CH.6/CH.6.md)
-  - [Chapter 7. 函数](CH.7/CH.7.md)
+  - [Chapter 6. 分支语句和逻辑运算符](CH.6/CH.6.md)
+  - [Chapter 7. 函数--C++的编程模块](CH.7/CH.7.md)
+  - [Chapter 8. 函数探幽](CH.8/CH.8.md)
+  - [Chapter 9. 内存模型和名称空间](CH.9/CH.9.md)
+  - [Chapter 10. 对象和类](CH.10/CH.10.md)
+  - [Chapter 11. 使用类](CH.11/CH.11.md)
+  - [Chapter 12. 类和动态内存分配](CH.12/CH.12.md)
+  - [Chapter 13. 类继承](CH.13/CH.13.md)
+  - [Chapter 14. C++中的代码重用](CH.14/CH.14.md)
+  - [Chapter 15. 友元、异常和其他](CH.15/CH.15.md)
+  - [Chapter 16. string类和标准模板库](CH.16/CH.16.md)
+  - [Chapter 17. 输入、输出和文件](CH.17/CH.17.md)
+  - [Chapter 18. 探讨C++新标准](CH.18/CH.18.md)
