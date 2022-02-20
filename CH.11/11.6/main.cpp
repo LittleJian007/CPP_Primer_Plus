@@ -3,7 +3,7 @@
 
 int main()
 {
-    Stonewt incognito = 275;
+    Stonewt incognito = 275;    //类的自动转换；Stonewt incognito （275）或Stonewt incognito = Stonewt(276.8)
     Stonewt wolfe(285.7);
     Stonewt taft(21, 8);
 
@@ -13,7 +13,7 @@ int main()
 
     std::cout <<"--------------\n";
 
-    incognito = 276.8;
+    incognito = 276.8;  
     taft = 325; 
 
     incognito.show_stn();
