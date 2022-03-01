@@ -1,1 +1,4 @@
 *.exe
+*.txt
+build/
+.vscode/
