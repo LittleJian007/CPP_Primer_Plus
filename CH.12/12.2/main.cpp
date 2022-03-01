@@ -20,12 +20,12 @@ int main()
     return 0;
 }
 
-void callme1(StringBad &rst)
+void callme1(const StringBad &rsb)
 {
-    cout << "引用字符串：" << rst << endl;
+    cout << "通过引用传递的字符串:" << rsb << endl;
 }
 
-void callme2(StringBad st)
+void callme2(const StringBad sb)
 {
-    cout << "传递字符串：" << st << endl;
+    cout << "通过值传递的字符串：" << sb << endl;
 }
