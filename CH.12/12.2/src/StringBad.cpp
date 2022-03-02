@@ -10,7 +10,7 @@ StringBad::StringBad(const char *s)
     str = new char[len + 1];
     strcpy(str, s);
     num_strings++;
-    cout << num_strings << ": \"" << str << ".\"" << endl;
+    // cout << num_strings << ": \"" << str << ".\"" << endl;
 }
 
 StringBad::StringBad()
@@ -37,6 +37,17 @@ StringBad::~StringBad()
     --num_strings;
     cout << num_strings << " left." <<endl;
     delete []str;
+}
+
+StringBad &StringBad::operator=(const StringBad &st)
+{
+    if(this == &st)
+        return *this;
+    delete []str;
+    len = st.len;
+    str = new char(len + 1);
+    strcpy(str, st.str);
+    return *this;
 }
 
 ostream &operator<<(ostream &os, const StringBad &st)

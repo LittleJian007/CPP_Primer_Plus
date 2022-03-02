@@ -17,8 +17,8 @@ public:
     StringBad(const StringBad &st); //用户创建赋值对象
     ~StringBad();                   //析构函数
 
-    StringBad &operator=(const StringBad &st);               //对象赋值         (为什么没有用friend ？？)
-    friend ostream &operator<<(ostream &os, const StringBad &st); //<<字符重载
+    StringBad &operator=(const StringBad &st);                    //对象赋值         (为什么没有用friend ？？)
+    friend ostream &operator<<(ostream &os, const StringBad &st); // “<<”运算符重载
 };
 
 #endif
