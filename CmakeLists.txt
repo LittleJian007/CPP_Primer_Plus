@@ -6,11 +6,11 @@ project (test)
 
 # 查找目录下的所有源文件
 # 并将名称保存到 DIR_SRCS 变量
-aux_source_directory(./CH.12/ex/p2/src SRC_SUB)
-aux_source_directory(./CH.12/ex/p2 SRC_CUR)
+aux_source_directory(./CH.13/13.3/src SRC_SUB)
+aux_source_directory(./CH.13/13.3 SRC_CUR)
 
 # 指定生成目标
 add_executable(${PROJECT_NAME} ${SRC_SUB} ${SRC_CUR})
 
 # 指定头文件
-include_directories(./CH.12/ex/p2/Inc)
+include_directories(./CH.13/13.3/Inc)

@@ -2,3 +2,4 @@
 *.pdf
 build/
 .vscode/
+randwalk.txt
