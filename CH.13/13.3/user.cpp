@@ -1,8 +1,10 @@
+/*使用类的对象*/
+
 #include "Brass.h"
 
 using std::cout;
 using std::endl;
-int main()
+int main0()
 {
     Brass xiaoming("zhang xiaoming", 622456, 5000.00);
     xiaoming.ViewAcct();
