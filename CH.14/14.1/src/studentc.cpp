@@ -2,7 +2,10 @@
 
 double Student::Average() const
 {
-    return scores.sum() / scores.size();
+    if (scores.size() > 0)
+        return scores.sum() / scores.size();
+    else
+        return 0;
 }
 
 const string &Student::Name() const
